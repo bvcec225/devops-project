@@ -15,7 +15,7 @@
         state: present
   - name: "copy code from GitHub"
     get_url:
-        url: https://www.shubhammishra.in
+        url: https://www.coachdevops.com/2024/04/fix-for-jenkins-slowness-when-running.html
         dest: "/var/www/html/index.php"
   - name: "Start httpd services"
     service:
